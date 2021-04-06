@@ -7,8 +7,8 @@ const Main = () => {
   return (
     <div>
       <Head title="Hello" />
+      <div className="flex justify-center bg-blue-700 text-white font-bold rounded-lg border shadow-lg p-7">
       <div id="title">
-      <div className="flex justify-center bg-blue-700 text-white font-bold rounded-lg border shadow-lg p-7"> 
         Main
       </div>
       </div>
