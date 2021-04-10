@@ -7,8 +7,10 @@ import { Switch, Route, withRouter, Redirect } from 'react-router-dom'
 import { bindActionCreators } from 'redux'
 
 import store, { history } from '../redux'
+
 import Home from '../components/home'
 import DummyView from '../components/dummy-view'
+
 import NotFound from '../components/404'
 
 import Startup from './startup'
