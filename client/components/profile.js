@@ -11,17 +11,17 @@ const Profile = () => {
       <div className="flex justify-center bg-blue-700 text-white font-bold rounded-lg border shadow-lg p-7">
         <div id="title">Profile</div>
       </div>
+      <div
+        id="username"
+        className="bg-blue-700 text-white font-bold rounded-lg border shadow-lg p-4"
+      >
+        {user}
+      </div>
       <div className="bg-blue-500 text-white font-bold rounded-lg border shadow-lg p-4">
         <Link to="/dashboard">Go To Root</Link>
       </div>
       <div className="bg-blue-500 text-white font-bold rounded-lg border shadow-lg p-4">
         <Link to="/dashboard/main">Go To Main</Link>
-      </div>
-      <div 
-      id="username"
-      className="bg-blue-500 text-white font-bold rounded-lg border shadow-lg p-4"
-      >
-        {user}
       </div>
     </div>
   )
