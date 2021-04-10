@@ -14,8 +14,8 @@ const Home = () => {
         <div className="flex flex-col bg-gray-400 text-white font-bold rounded-lg border shadow-lg p-10">
           <Switch>
             <Route exact path="/dashboard" component={() => <Dashboard />} />
-            <Route exact path="/dashboard/profile/:user" component={() => <Profile />} />
             <Route exact path="/dashboard/main" component={() => <Main />} />
+            <Route exact path="/dashboard/profile/:user" component={() => <Profile />} />
           </Switch>
         </div>
       </div>

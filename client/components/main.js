@@ -6,15 +6,17 @@ import Head from './head'
 const Main = () => {
   return (
     <div>
-      <Head title="Hello" />
-      <div className="flex justify-center bg-blue-700 text-white font-bold rounded-lg border shadow-lg p-7">
-        <div id="title">Main</div>
-      </div>
-      <div className="bg-blue-500 text-white font-bold rounded-lg border shadow-lg p-4">
-        <Link to="/dashboard/profile/7b4e70d3-efda-43fe-bb53-c29e23e12c9c">Go To Profile</Link>
-      </div>
-      <div className="bg-blue-500 text-white font-bold rounded-lg border shadow-lg p-4">
-        <Link to="/dashboard">Go To Root</Link>
+      <Head title="Main" />
+      <div className="flex items-center justify-center h-screen">
+        <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
+          <div className="flex justify-center border rounded font-semibold mb-2 p-2" id="title">
+            Main
+          </div>
+          <div className="flex flex-col items-center">
+            <Link to="/dashboard/profile/385666b1-bff5-11e9-95ba-1bf845c18f8d">Go To Profile</Link>
+            <Link to="/dashboard">Go To Root</Link>
+          </div>
+        </div>
       </div>
     </div>
   )
